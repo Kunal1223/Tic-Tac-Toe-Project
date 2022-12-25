@@ -16,7 +16,7 @@
     padding: 13px 20px;
 }
 .navbar li a{
-    padding:3px 3px;
+    padding:-1px 3px;
     text-decoration: none;
     color:white;
 }
@@ -42,7 +42,7 @@
     justify-content: center;
     margin-top: 0px;
     background-color: #b5dfba;
-    min-height: 60vw;
+    min-height: 80vw;
 }
 
 .container{
@@ -148,5 +148,10 @@
     .container { 
         grid-template-rows: repeat(3, 20vw);
         grid-template-columns: repeat(3, 20vw);
+    }
+    .navbar li {
+        float: left;
+        list-style: none;
+        padding: 16px 4px;
     }
 }
